@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('myApp.notebook', ['ngRoute'])
+angular.module('myApp.picdiary', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/notebook', {
+  $routeProvider.when('/picdiary', {
     templateUrl: 'view2/view2.html',
     controller: 'View2Ctrl'
   });

@@ -4,7 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.work',
-  'myApp.notebook',
+  'myApp.picdiary',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
