@@ -5,6 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.work',
   'myApp.picdiary',
+  'myApp.unofficial',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
